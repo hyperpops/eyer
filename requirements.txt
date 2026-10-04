@@ -5,7 +5,7 @@ aiosignal==1.4.0
 annotated-types==0.7.0
 anyio==4.13.0
 attrs==26.1.0
-audioop-lts
+audioop-lts==0.2.2; python_version >= "3.13"
 base58==2.1.1
 bip_utils==2.12.1
 bitarray==3.8.1
@@ -60,7 +60,7 @@ PyNaCl==1.6.2
 python-dotenv==1.2.2
 pytoniq-core-fork==0.1.48
 pyunormalize==17.0.0
-pywin32==312
+pywin32==312; sys_platform == "win32"
 regex==2026.4.4
 requests==2.33.1
 rlp==4.1.0
